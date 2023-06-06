@@ -25,27 +25,21 @@ Welcome to AIVLOG, a blog application developed under the AIVANA parent company.
 2. Start the development server: `npm run dev`
 3. Access the application in your browser at `http://localhost:3000`
 
-## Contributing
-
-We welcome contributions to AIVLOG! To contribute, please follow these steps:
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Make your changes and commit them: `git commit -am 'Add your feature'`
-4. Push the changes to your forked repository: `git push origin feature/your-feature-name`
-5. Open a pull request to the `main` branch of the AIVLOG repository
-
 ## Contact
 
 If you encounter any issues or have suggestions for improvements, please contact us through the following channels:
 
-- Email: [contact@aivlog.com](mailto:contact@aivlog.com)
-- Website: [www.aivlog.com](https://www.aivlog.com)
+- Email: [contact@aivlog.com](mailto:Sunnysharma7601@gmail.com)
+- Website: [www.aivlog.com](https://www.aivlog.vercel.app)
 - Social Media: [Twitter](https://twitter.com/aivlog) | [Instagram](https://www.instagram.com/aivlog) | [Facebook](https://www.facebook.com/aivlog)
 
 ## Browser Script Blocking Animation
 
 AIVLOG has a unique animation that is triggered when the script is blocked in the user's browser. This animation provides a visual cue to users that the website functionality may be limited without JavaScript enabled.
+
+## Contributing
+
+We welcome contributions to AIVLOG! To contribute
 
 ## License
 
