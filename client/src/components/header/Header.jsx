@@ -32,7 +32,7 @@ const Header = () => {
     // const navigate = useNavigate();
 
     // const logout = async () => navigate('/account');
-        const abouturl = 'https://github.com/20Sunny/MERN-BLOG-WEB-APP/blob/main/README.md'
+        const abouturl = 'https://github.com/20Sunny/aivana'
     return (
         <Component>
             <Container>
