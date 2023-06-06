@@ -22,7 +22,15 @@ Welcome to AIVLOG, a blog application developed under the AIVANA parent company.
  ```
 
 
-2. Install dependencies: `npm install`
+2. Install dependencies:
+for Client Folder
+```
+react-scripts --openssl-legacy-provider install
+```
+for Server Folder
+```
+react-scripts install
+```
 
 ## Usage
 
