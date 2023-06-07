@@ -25,26 +25,37 @@ Welcome to AIVLOG, a blog application developed under the AIVANA parent company.
 2. Install dependencies:
 for Client Folder
 ```
-react-scripts --openssl-legacy-provider install
+npm --openssl-legacy-provider install
 ```
 for Server Folder
 ```
-react-scripts install
+npm install
 ```
 
-## Usage
+## Usage For Server
 
-1. Set up the required environment variables (e.g., database connection, JWT secret) in a `.env` file.
-2. Start the development server: `npm run dev`
-3. Access the application in your browser at `http://localhost:3000`
+1. Set up the required environment variables (e.g., database connection, JWT secret) in a `.env` file in server folder.
+```
+DB_USERNAME= MongoDB API Username
+DB_PASSWORD= MongDB API password
+DB_URL= your MongoDB Atlas API
+ACCESS_SECRET_KEY=de37bbab03b0380009e4b2f9c6fa6dcf95ae3acfc63125ce7b580d8d490eb6f92579843a4ce44011998dbec04fab568e5de224b042b2c2cf284acfbe03f1f4a6
+REFRESH_SECRET_KEY=a60327222ffaa884573490fc0574d69f3f5d1925a98479fb4ef184ebc99fab84cbb9edcc41434b58a07b66188a75152916ed7b46b2031afa5b5c0f046cacb726
+```
+2. Go to ``server/controller/image-controller.js``
+3. Start the development server: `npm start`
+
+## Usage For Client
+
+1. 
 
 ## Contact
 
 If you encounter any issues or have suggestions for improvements, please contact us through the following channels:
 
-- Email: [contact@aivlog.com](mailto:Sunnysharma7601@gmail.com)
-- Website: [www.aivlog.com](https://www.aivlog.vercel.app)
-- Social Media: [Twitter](https://twitter.com/aivlog) | [Instagram](https://www.instagram.com/aivlog) | [Facebook](https://www.facebook.com/aivlog)
+- Email: [SunnySharma7601@gmail.com](mailto:Sunnysharma7601@gmail.com)
+- Website: [https://aivlog.vercel.app](https://aivlog.vercel.app)
+- Social Media: [Github](https://github.com/20sunny) | [Instagram](https://www.instagram.com/aivlog) | [Facebook](https://www.facebook.com/aivlog)
 
 ## Browser Script Blocking Animation
 
