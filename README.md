@@ -1,3 +1,4 @@
+
 # AIVLOG
 
 Welcome to AIVLOG, a blog application developed under the AIVANA parent company. AIVLOG allows users to upload blogs categorized into five different categories. Users who upload blogs have full CRUD (Create, Read, Update, Delete) operations on their own blogs, while other users can read the blogs, leave comments, and delete their own comments. Additionally, users can set a thumbnail for their blogs in various image formats such as .jpg, .png, .gif, or .svg.
@@ -63,6 +64,23 @@ If you encounter any issues or have suggestions for improvements, please contact
 AIVLOG has a unique animation that is triggered when the script is blocked in the user's browser. This animation provides a visual cue to users that the website functionality may be limited without JavaScript enabled.
 
 ## Screenshots
+### login or sign up 
+![Login or sin up](https://res.cloudinary.com/dhbyg08yc/image/upload/v1686186091/aivlog.vercel.app_account_iwob96.png)
+
+### Home Page
+![home](https://res.cloudinary.com/dhbyg08yc/image/upload/v1686186091/aivlog.vercel.app__csarai.png)
+
+### View Blog
+![](https://res.cloudinary.com/dhbyg08yc/image/upload/v1686186091/aivlog.vercel.app_details_647f0104ff6b33be85a0c4ca_lydf5s.png)
+
+### Edit Blog
+![](https://res.cloudinary.com/dhbyg08yc/image/upload/v1686186092/aivlog.vercel.app_update_647f0104ff6b33be85a0c4ca_eaa8xw.png)
+
+### New Blog
+![](https://res.cloudinary.com/dhbyg08yc/image/upload/v1686186091/aivlog.vercel.app__1_jrpxca.png)
+
+### Contact Page
+![](https://res.cloudinary.com/dhbyg08yc/image/upload/v1686186089/aivlog.vercel.app_contact_hcygnc.png)
 
 ## Contributing
 
