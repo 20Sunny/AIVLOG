@@ -62,6 +62,8 @@ If you encounter any issues or have suggestions for improvements, please contact
 
 AIVLOG has a unique animation that is triggered when the script is blocked in the user's browser. This animation provides a visual cue to users that the website functionality may be limited without JavaScript enabled.
 
+## Screenshots
+
 ## Contributing
 
 We welcome contributions to AIVLOG! To contribute
