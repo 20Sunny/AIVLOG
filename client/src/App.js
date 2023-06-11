@@ -29,7 +29,7 @@ function App() {
   return (
     <DataProvider>
       <BrowserRouter>
-      <Box style={{height:"100%",background: "linear-gradient(to left,#dc2430,#7b4397)"}}> 
+       <Box style={{height:"100%"}}> // ,background: "linear-gradient(to left,#dc2430,#7b4397)"
         {/* <Box style={{ marginTop: 64 }}> */}
           <Routes>
             <Route path='/account' element={<Login isUserAuthenticated={isUserAuthenticated} />} />
