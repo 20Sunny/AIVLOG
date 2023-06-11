@@ -178,7 +178,7 @@ const Login = ({ isUserAuthenticated }) => {
                         <Wrapper>
                             <h2 className='flag' style={{textAlign:'center',fontWeight:'400', top:'0%'}}>Log In</h2>
                             <TextField variant="outlined" value={login.username} onChange={(e) => onValueChange(e)} name='username' label='Enter Username' focused/>
-                            <TextField variant="outlined" value={login.password} onChange={(e) => onValueChange(e)} name='password' label='Enter Password' focused/>
+                            <TextField variant="outlined" value={login.password} onChange={(e) => onValueChange(e)} type='password' name='password' label='Enter Password' focused/>
 
                             {error && <Error>{error}</Error>}
 
@@ -190,7 +190,7 @@ const Login = ({ isUserAuthenticated }) => {
                             <h2 className='flag' style={{textAlign:'center',fontWeight:'400', top:'0%'}}>Sign Up</h2>
                             <TextField variant="outlined" onChange={(e) => onInputChange(e)} type='username' name='username' label='Enter Username' focused/>
                             <TextField variant="outlined" onChange={(e) => onInputChange(e)} type='name' name='name' label='Enter Full Name' focused/>
-                            <TextField variant="outlined" onChange={(e) => onInputChange(e)} type='password' name='password' label='Enter Password' focused/>
+                            <TextField variant="outlined" onChange={(e) => onInputChange(e)} name='password' label='Enter Password' focused/>
 
                             <SignupButton className='button-86' onClick={() => signupUser()} ><abbr title="Create Account"><PersonAddAltIcon /></abbr></SignupButton>
                             <Text style={{ textAlign: 'center' , color:'#000'}}>OR</Text>
