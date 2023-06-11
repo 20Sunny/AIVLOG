@@ -6,10 +6,10 @@ noscript {
     padding: 0;
 }
 
-body {
+/* body { */
 /*     background-image: url(https://res.cloudinary.com/dhbyg08yc/image/upload/v1684508632/back_af0tt4.png); */
-    background: linear-gradient(to left, rgb(220, 36, 48), rgb(123, 67, 151));
-}
+/*     background: linear-gradient(to left, rgb(220, 36, 48), rgb(123, 67, 151));
+} */
 
 .text {
     left: 50%;
