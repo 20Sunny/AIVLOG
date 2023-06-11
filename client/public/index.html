@@ -33,5 +33,10 @@
     <noscript><div class="text"><p>Enable Javascript</p></div><div class="container"><div class="caveman"><div class="leg"><div class="foot"><div class="fingers"></div></div></div><div class="leg"><div class="foot"><div class="fingers"></div></div></div><div class="shape"><div class="circle"></div><div class="circle"></div></div><div class="head"><div class="eye"><div class="nose"></div></div><div class="mouth"></div></div><div class="arm-right"><div class="club"></div></div></div><div class="caveman"><div class="leg"><div class="foot"><div class="fingers"></div></div></div><div class="leg"><div class="foot"><div class="fingers"></div></div></div><div class="shape"><div class="circle"></div><div class="circle"></div></div><div class="head"><div class="eye"><div class="nose"></div></div><div class="mouth"></div></div><div class="arm-right"><div class="club"></div></div></div></div></noscript>
     <div id="root"></div>
 </body>
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+function onSubmit(token) {
+document.getElementById("invisible-recaptcha-form").submit();
+}
+</script>
 </html>
