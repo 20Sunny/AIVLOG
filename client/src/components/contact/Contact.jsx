@@ -28,13 +28,14 @@ const Contact = () => {
         <Box className='basic' style={{maxHeight:'100vh',height:'100%',overflow:'hidden !important'}}>
             <Wrapper className='shadow'>
                 <span className='flag2'>Contact Us</span>
-                <form action="https://usebasin.com/f/34f6b8c3154e" method="post" style={{display:'flex', flexDirection:'column',justifyContent:'center', gap:'20px', width:'80vw'}}>
+                <form id="invisible-recaptcha-form" action="https://usebasin.com/f/34f6b8c3154e" method="post" style={{display:'flex', flexDirection:'column',justifyContent:'center', gap:'20px', width:'80vw'}}>
                 <div style={{display:'flex', flexDirection:'row', width:'100%', gap:'20px'}}>
                 <input className='input' type="text" name='Name' placeholder='Full Name' required style={{width:'100%'}} />    
                 <input className='input' type="email" placeholder='E-mail' name="email" id="" required style={{width:'100%'}} /></div>
                 <input className='input' type="text" placeholder='Subject' required />
                 <textarea className='input' name="message" id="message" placeholder='Message' required style={{height:'25vh'}}></textarea>
-                <button className='button-86' type="submit" id='submit-btn' style={{width:'25%',margin:'auto'}}><abbr title='Send'><SendIcon /></abbr></button>
+                <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+                <button className='button-86 g-recaptcha' data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-callback='onSubmit' data-badge="inline" type="submit" id='submit-btn' style={{width:'25%',margin:'auto'}}><abbr title='Send'><SendIcon /></abbr></button>
                 </form>
             </Wrapper>
             <div className='footer'>
