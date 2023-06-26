@@ -83,7 +83,7 @@ AIVLOG has a unique animation that is triggered when the script is blocked in th
 
 ## Contributing
 
-We welcome contributions to AIVLOG! To contribute
+We welcome contributions to AIVLOG! To contribute.
 
 ## License
 
