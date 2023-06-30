@@ -1,4 +1,3 @@
-
 <p align="center"><img width="180" src="https://aivanaart.vercel.app/assets/logo-76f396b8.png" alt="AIVANA"><h1 align="center">AIVANA - Aivlog</h1></p>
 
 Welcome to AIVLOG, a blog application developed under the AIVANA parent company. AIVLOG allows users to upload blogs categorized into five different categories. Users who upload blogs have full CRUD (Create, Read, Update, Delete) operations on their own blogs, while other users can read the blogs, leave comments, and delete their own comments. Additionally, users can set a thumbnail for their blogs in various image formats such as .jpg, .png, .gif, or .svg.
