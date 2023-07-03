@@ -4,7 +4,7 @@ Welcome to AIVLOG, a blog application developed under the AIVANA parent company.
 
 ## Features
 
-- User authentication using JSON Web Tokens (JWT)
+- User authentication using JSON Web Tokens (JWT).
 - Blog upload and categorization
 - CRUD operations for blog owners
 - Reading and commenting on blogs for other users
