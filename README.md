@@ -17,6 +17,7 @@ Welcome to AIVLOG, a blog application developed under the AIVANA parent company.
 ## Installation
 
 1. Clone the repository
+
  ```
  git clone https://github.com/20Sunny/AIVLOG.git 
  ```
